@@ -24,3 +24,11 @@ Assistance for this project was also provided by the AI Xpert Learning Assistant
 ## License
 
 Refer to the license in the repo.
+
+## Features
+
+- Prompts to add employee first name, last name and salary
+- Formatting of these values into the displayed table
+- Logging the employee details within the console
+- Displaying the average salary within the console
+- Announcing a random winner within the console
