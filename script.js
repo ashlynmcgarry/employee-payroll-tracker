@@ -27,7 +27,6 @@ if (nextEmployee != true) {
   addNextEmployee = false; 
   }
 }
-console.log(employees);
 return employees;
 }
 
@@ -36,16 +35,16 @@ const displayAverageSalary = function(employeesArray) {
   let sum = 0;
   for(let i = 0; i <employeesArray.length; i++) {
     sum += employeesArray[i].salary; }
-  let average = sum / employeesArray.length;
+  let salaryAverage = sum / employeesArray.length;
 
-  console.log(`The average salary between our ${employeesArray.length} employees is $${average}`);
+  console.log(`The average salary between our ${employeesArray.length} employees is $${salaryAverage}`);
 }
 
 // Select a random employee
 const getRandomEmployee = function(employeesArray) {
-  const randomIndex = Math.floor(Math.random() * employeesArray.length);
-  const randomEmployee = employeesArray[randomIndex];
-  console.log(`Congratulations ${randomEmployee.firstName} ${randomEmployee.lastName}, you have won the random draw!`);
+  const randomWinner = Math.floor(Math.random() * employeesArray.length);
+  const randomEmployee = employeesArray[randomWinner];
+  console.log(`Congratulations ${randomEmployee.firstName} ${randomEmployee.lastName} you have won the random employee draw!`);
 }
 
 /*
