@@ -19,7 +19,7 @@ The Employee Payroll Tracker is used as a place to input employee first names, l
 ## Credits
 
 The starter code from this project was taken from [coding-boot-camp/curly-potato](https://github.com/coding-boot-camp/curly-potato) on Github. 
-Assistance for this project was also provided by the AI Xpert Learning Assistant within Bootcamp Spot. This assistance included answering questions, explaining concepts and providing examples of several Javascript functions including arrays, while loops, NaN, calculating average and Math.random. 
+Assistance for this project was also provided by the AI Xpert Learning Assistant within Bootcamp Spot. This assistance included answering questions, explaining concepts and providing examples of several Javascript functions.
 
 ## License
 
